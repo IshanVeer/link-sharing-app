@@ -3,6 +3,42 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* colors */
+@theme {
+  /* primary colors */
+  --color-primary-200: #efebff;
+  --color-primary-300: #beadff;
+  --color-primary-500: #633cff;
+
+  /* darks */
+  --color-dark-100: #333333;
+  --color-dark-200: #737373;
+  --color-dark-300: #d9d9d9;
+
+  /* lights */
+  --color-light-100: #ffffff;
+  --color-light-200: #fafafa;
+
+  /* accent colors */
+  --color-accent-red: #ff3939;
+}
+
+@utility hm-bold {
+  @apply text-[32px] font-bold leading-[150%];
+}
+
+@utility hs-bold {
+  @apply text-[16px] font-bold leading-[150%];
+}
+
+@utility body-m {
+  @apply text-[16px] font-normal leading-[150%];
+}
+
+@utility body-s {
+  @apply text-[12px] font-normal leading-[150%];
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
