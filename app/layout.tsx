@@ -29,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${instrumentSans.variable}  antialiased`}>
+      <body className={`${instrumentSans.variable} bg-dark-100  antialiased`}>
         {children}
       </body>
     </html>
