@@ -8,7 +8,7 @@ import React from "react";
 const MobileNav = () => {
   const pathname = usePathname();
   return (
-    <nav className="md:hidden bg-light-100 flex items-center justify-between px-7 py-6">
+    <nav className="md:hidden rounded-[12px] bg-light-100 flex items-center justify-between px-7 py-6">
       <Link href="/">
         <Image
           src="/assets/images/logo-devlinks-small.svg"

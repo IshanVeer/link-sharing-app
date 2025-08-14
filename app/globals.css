@@ -28,7 +28,7 @@
 }
 
 @utility hs-bold {
-  @apply text-[16px] font-bold leading-[150%];
+  @apply text-[16px] font-semibold leading-[150%];
 }
 
 @utility body-m {
